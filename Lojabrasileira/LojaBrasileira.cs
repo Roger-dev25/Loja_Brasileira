@@ -50,7 +50,7 @@ class Loja{
             case 5:
                 valorPago = Math.Round(produto,2);
                 valorParcelas = Math.Round(valorPago / 10,2);
-                Console.WriteLine("Valor final do produto é: R$ {0} em 10x de R$ {1} - item: {2}\n",valorPago, valorParcelas, item[51]);
+                Console.WriteLine("Valor final do produto é: R$ {0} em 10x de R$ {1} - item: {2}\n",valorPago, valorParcelas, item[50]);
             break;
             default:
                 Console.WriteLine("Opção inválida.\n");
